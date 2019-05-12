@@ -21,15 +21,22 @@ public class Tarolo {
     }
 
     public boolean probalBerakni(int golyo, int cel) {
-        if (cel >= count - 1)
+        if (cel >= count - 1) {
+            System.out.println("Túl nagy számot adtál meg.");
             return false;
+        }
         if (tarolo[cel].ures() && tarolo[cel].ures()) {
             tarolo[cel].setLabda(tarolo[golyo].torolLabda());
             tarolo[cel + 1].setLabda(tarolo[golyo + 1].torolLabda());
             return true;
         } else {
+            System.out.println("A célmezők nem üresek");
             return false;
         }
+    }
+
+    public boolean ures(int index) {
+        return tarolo[index].ures();
     }
 
     public boolean nyert() {

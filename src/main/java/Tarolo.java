@@ -35,15 +35,15 @@ public class Tarolo {
     public boolean nyert() {
         for (int i = 0; i < tarolo.length; ++i) {
             if (!tarolo[i].ures()) {
-                char szin = tarolo[i].getLabda().getSzin();
-                char mszin = szin == 'p' ? 'f' : 'p';
-                for (int j = i + 1; j < i + 3; ++j) {
-                    if (tarolo[j].getLabda().getSzin() != szin) {
+                char piros = 'p';
+                char fekete = 'f';
+                for (int j = i; j < i + 3; ++j) {
+                    if (!tarolo[j].ures() && tarolo[j].getLabda().getSzin() != piros) {
                         return false;
                     }
                 }
                 for (int k = i + 3; k < i + 6; ++k) {
-                    if (tarolo[k].getLabda().getSzin() != mszin) {
+                    if (!tarolo[k].ures() && tarolo[k].getLabda().getSzin() != fekete) {
                         return false;
                     }
                 }

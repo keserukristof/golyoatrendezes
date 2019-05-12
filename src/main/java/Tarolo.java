@@ -38,12 +38,12 @@ public class Tarolo {
                 char piros = 'p';
                 char fekete = 'f';
                 for (int j = i; j < i + 3; ++j) {
-                    if (!tarolo[j].ures() && tarolo[j].getLabda().getSzin() != piros) {
+                    if (tarolo[j].getLabdaSzin() != piros) {
                         return false;
                     }
                 }
                 for (int k = i + 3; k < i + 6; ++k) {
-                    if (!tarolo[k].ures() && tarolo[k].getLabda().getSzin() != fekete) {
+                    if (tarolo[k].getLabdaSzin() != fekete) {
                         return false;
                     }
                 }

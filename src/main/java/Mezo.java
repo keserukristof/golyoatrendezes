@@ -13,6 +13,13 @@ public class Mezo {
         return labda;
     }
 
+    public char getLabdaSzin() {
+        if (labda == null)
+            return '.';
+        else
+            return labda.getSzin();
+    }
+
     public void setLabda(Labda l) {
         if (labda == null)
             labda = l;

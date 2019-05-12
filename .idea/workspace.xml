@@ -37,7 +37,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
+  <component name="ProjectFrameBounds" extendedState="5">
     <option name="x" value="961" />
     <option name="width" value="959" />
     <option name="height" value="1039" />
@@ -48,7 +48,17 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="golyoatrendezes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="golyoatrendezes" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -84,16 +94,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557672692706</updated>
-      <workItem from="1557672694096" duration="901000" />
+      <workItem from="1557672694096" duration="1709000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="901000" />
+    <option name="totallyTimeSpent" value="1709000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="961" y="0" width="959" height="1039" extended-state="4" />
-    <editor active="true" />
+    <frame x="961" y="0" width="959" height="1039" extended-state="5" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />

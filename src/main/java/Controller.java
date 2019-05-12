@@ -1,7 +1,5 @@
-import java.beans.XMLEncoder;
-import java.io.BufferedOutputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
+import java.beans.XMLDecoder;
+import java.io.*;
 import java.util.Scanner;
 
 public class Controller {
@@ -9,7 +7,9 @@ public class Controller {
     Tarolo tarolo = new Tarolo();
 
     public void start() {
-        Ranglista ranglista = ranglistaBeolvas("ranglista.xml");
+        Ranglista ranglista = new Ranglista();
+        ranglista.beolvas("ranglista.xml");
+        ranglista.listaz();
         Scanner scanner = new Scanner(System.in);
         System.out.println("Kérem adja meg a nevét!");
         String nev = scanner.next();
@@ -23,7 +23,7 @@ public class Controller {
                 egyik = scanner.nextInt();
                 masik = scanner.nextInt();
                 try {
-                    if (tarolo.ures(egyik) || tarolo.ures(masik)) {
+                    if (tarolo.ures(egyik - 1) || tarolo.ures(masik - 1)) {
                         System.out.println("A megadott mezőn nincsen labda");
                     } else if (Math.abs(egyik - masik) != 1) {
                         System.out.println("Szomszédos indexeket adj meg!");
@@ -47,18 +47,9 @@ public class Controller {
                 break;
             }
         }
+        ranglista.kiir("ranglista.xml");
     }
 
-    public Ranglista ranglistaBeolvas(String file) {
-        Ranglista ret = null;
-        XMLEncoder encoder=null;
-        try{
-            encoder=new XMLEncoder(new BufferedOutputStream(new FileOutputStream(file)));
-        }catch(FileNotFoundException fileNotFound){
-            System.out.println("ERROR: While Creating or Opening the File dvd.xml");
-        }
-        encoder.writeObject(ret);
-        encoder.close();
-        return ret;
-    }
+
+
 }

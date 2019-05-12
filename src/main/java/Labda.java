@@ -10,4 +10,8 @@ public class Labda {
     public void kirajzol() {
         System.out.print(szin);
     }
+
+    public char getSzin() {
+        return szin;
+    }
 }

@@ -13,6 +13,16 @@ public class Mezo {
         return labda;
     }
 
+    public void setLabda(Labda l) {
+        if (labda == null)
+            labda = l;
+    }
+
+    public Labda torolLabda() {
+        Labda tmp = labda;
+        labda = null;
+        return tmp;
+    }
 
     public void kirajzol() {
         if (labda != null)

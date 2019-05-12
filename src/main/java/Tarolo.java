@@ -1,5 +1,7 @@
 public class Tarolo {
-    private Mezo [] tarolo = new Mezo[16];
+    private static int count = 16;
+
+    private Mezo[] tarolo = new Mezo[count];
 
     public Tarolo() {
         for (int i = 0; i < 3; ++i) {
@@ -12,13 +14,43 @@ public class Tarolo {
     }
 
     public void kirajzol() {
-        for (int i = 0; i < tarolo.length; ++i){
+        for (int i = 0; i < tarolo.length; ++i) {
             tarolo[i].kirajzol();
         }
         System.out.println();
     }
 
     public boolean probalBerakni(int golyo, int cel) {
+        if (cel >= count - 1)
+            return false;
+        if (tarolo[cel].ures() && tarolo[cel].ures()) {
+            tarolo[cel].setLabda(tarolo[golyo].torolLabda());
+            tarolo[cel + 1].setLabda(tarolo[golyo + 1].torolLabda());
+            return true;
+        } else {
+            return false;
+        }
+    }
 
+    public boolean nyert() {
+        for (int i = 0; i < tarolo.length; ++i) {
+            if (!tarolo[i].ures()) {
+                char szin = tarolo[i].getLabda().getSzin();
+                char mszin = szin == 'p' ? 'f' : 'p';
+                for (int j = i + 1; j < i + 3; ++j) {
+                    if (tarolo[j].getLabda().getSzin() != szin) {
+                        return false;
+                    }
+                }
+                for (int k = i + 3; k < i + 6; ++k) {
+                    if (tarolo[k].getLabda().getSzin() != mszin) {
+                        return false;
+                    }
+                }
+                return true;
+            }
+
+        }
+        return false;
     }
 }

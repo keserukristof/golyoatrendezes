@@ -11,9 +11,13 @@ public class Controller {
             System.out.println("Melyik gólyót szeretnéd kiemelni?");
             int egyik = scanner.nextInt();
             int masik = scanner.nextInt();
-            System.out.println("Hova szeretnéd visszarakni ezeket?");
+            System.out.println("Hova szeretnéd visszarakni ezeket? (a bal indexet add meg!)");
             int cel = scanner.nextInt();
-            tarolo.probalBerakni(egyik > masik ? egyik : masik, cel);
+            tarolo.probalBerakni(egyik < masik ? egyik - 1 : masik - 1, cel - 1);
+            if (tarolo.nyert()) {
+                System.out.println("Nyertél");
+                break;
+            }
         }
     }
 

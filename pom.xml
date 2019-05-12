@@ -7,6 +7,23 @@
     <artifactId>golyo-atrendezes</artifactId>
     <packaging>jar</packaging>
     <version>1.0-SNAPSHOT</version>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.build.outputEncoding>UTF-8</project.build.outputEncoding>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <exec.cleanupDaemonThreads>false</exec.cleanupDaemonThreads>
+        <dependency.locations.enabled>false</dependency.locations.enabled>
+    </properties>
+    <name>Golyo Atrendezes</name>
+    <description>Piros és fekete golyók átrendezésének implementálása,</description>
+    <developers>
+        <developer>
+            <id>keserukristof</id>
+            <name>Kristóf Keserű</name>
+            <email>kristofkeseru1117@gmail.com</email>
+        </developer>
+    </developers>
     <build>
         <plugins>
             <plugin>
@@ -51,21 +68,4 @@
         </plugin>
         </plugins>
     </build>
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.build.outputEncoding>UTF-8</project.build.outputEncoding>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
-        <exec.cleanupDaemonThreads>false</exec.cleanupDaemonThreads>
-        <dependency.locations.enabled>false</dependency.locations.enabled>
-    </properties>
-    <name>Golyo Atrendezes</name>
-    <description>Piros és fekete golyók átrendezésének implementálása,</description>
-    <developers>
-        <developer>
-            <id>kristof</id>
-            <name>Kristóf Keserű</name>
-            <email>kristofkeseru1117@gmail.com</email>
-        </developer>
-    </developers>
 </project>

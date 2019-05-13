@@ -23,9 +23,7 @@ public class Controller {
                 egyik = scanner.nextInt();
                 masik = scanner.nextInt();
                 try {
-                    if (tarolo.ures(egyik - 1) || tarolo.ures(masik - 1)) {
-                        System.out.println("A megadott mezőn nincsen labda");
-                    } else if (Math.abs(egyik - masik) != 1) {
+                    if (Math.abs(egyik - masik) != 1) {
                         System.out.println("Szomszédos indexeket adj meg!");
                     } else {
                         error = false;

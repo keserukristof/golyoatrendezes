@@ -13,6 +13,10 @@ public class Tarolo {
         }
     }
 
+    public Tarolo(Mezo[] tarolo) {
+        this.tarolo = tarolo;
+    }
+
     public void kirajzol() {
         for (int i = 0; i < tarolo.length; ++i) {
             tarolo[i].kirajzol();
@@ -23,6 +27,10 @@ public class Tarolo {
     public boolean probalBerakni(int golyo, int cel) {
         if (cel >= count - 1) {
             System.out.println("Túl nagy számot adtál meg.");
+            return false;
+        }
+        if (tarolo[golyo].ures() || tarolo[golyo + 1].ures()) {
+            System.out.println("Nincs golyó a megadott mezőn");
             return false;
         }
         if (tarolo[cel].ures() && tarolo[cel].ures()) {

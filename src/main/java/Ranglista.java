@@ -2,23 +2,14 @@ import java.beans.XMLDecoder;
 import java.beans.XMLEncoder;
 import java.io.*;
 import java.util.ArrayList;
-import java.util.Collections;
 
 public class Ranglista {
 
 
 
-    ArrayList<Rekord> rangsor = new ArrayList<>();
+    private ArrayList<Rekord> rangsor = new ArrayList<>();
 
     public Ranglista() {}
-
-    public ArrayList<Rekord> getRangsor() {
-        return rangsor;
-    }
-
-    public void setRangsor(ArrayList<Rekord> rangsor) {
-        this.rangsor = rangsor;
-    }
 
     public void beszurHaTud(String nev, int lepes) {
         Rekord rekord = new Rekord();
@@ -32,23 +23,31 @@ public class Ranglista {
 
     }
 
-    public void listaz() {
+    @Override
+    public String toString() {
+        String ret = "";
         for (Rekord r : rangsor) {
-            System.out.println(r.getNev() + " " + r.getLepes());
+            ret += r.getNev() + " " + r.getLepes() + "\n";
         }
+        return ret;
+    }
+
+    public void listaz() {
+        System.out.println(toString());
     }
 
 
 
     public void kiir(String file) {
         XMLEncoder encoder=null;
-        try{
+        try {
             encoder=new XMLEncoder(new BufferedOutputStream(new FileOutputStream(file)));
-        }catch(FileNotFoundException fileNotFound){
+            encoder.writeObject(rangsor);
+            encoder.close();
+        } catch(FileNotFoundException fileNotFound){
             System.out.println("ERROR: While Creating or Opening the File " + file);
         }
-        encoder.writeObject(rangsor);
-        encoder.close();
+
     }
 
     public void beolvas(String file) {

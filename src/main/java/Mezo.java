@@ -5,6 +5,10 @@ public class Mezo {
         this.labda = labda;
     }
 
+    public Mezo(char c) {
+        this.labda = new Labda(c);
+    }
+
     public boolean ures() {
         return labda == null;
     }

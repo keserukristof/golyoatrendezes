@@ -1,4 +1,10 @@
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 public class Tarolo {
+
+    public static Logger logger = LoggerFactory.getLogger(Tarolo.class);
+
     private static int count = 16;
 
     private Mezo[] tarolo = new Mezo[count];
@@ -26,11 +32,11 @@ public class Tarolo {
 
     public boolean probalBerakni(int golyo, int cel) {
         if (cel >= count - 1) {
-            System.out.println("Túl nagy számot adtál meg.");
+            logger.error("Túl nagy számot adtál meg.");//System.out.println("Túl nagy számot adtál meg.");
             return false;
         }
         if (tarolo[golyo].ures() || tarolo[golyo + 1].ures()) {
-            System.out.println("Nincs golyó a megadott mezőn");
+            logger.error("Nincs golyó a megadott mezőn");
             return false;
         }
         if (tarolo[cel].ures() && tarolo[cel].ures()) {
@@ -38,7 +44,7 @@ public class Tarolo {
             tarolo[cel + 1].setLabda(tarolo[golyo + 1].torolLabda());
             return true;
         } else {
-            System.out.println("A célmezők nem üresek");
+            logger.error("A célmezők nem üresek");
             return false;
         }
     }

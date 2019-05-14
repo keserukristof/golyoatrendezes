@@ -2,6 +2,10 @@ import org.pmw.tinylog.Logger;
 
 import java.util.Scanner;
 
+/**
+ * Az osztály lényegi része a start() metódus amely
+ * bekéri az adatokat és kommunikál a felhasználóval.
+ */
 public class Controller {
 
     Tarolo tarolo = new Tarolo();

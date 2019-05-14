@@ -2,8 +2,15 @@ import org.pmw.tinylog.Logger;
 
 public class Tarolo {
 
+    /**
+     * A tároló mérete
+     */
     private static int count = 16;
 
+
+    /**
+     * A tömb amiben vagy 'p','f' vagy null érték lehet
+     */
     private Mezo[] tarolo = new Mezo[count];
 
     public Tarolo() {
@@ -16,10 +23,14 @@ public class Tarolo {
         }
     }
 
+
     public Tarolo(Mezo[] tarolo) {
         this.tarolo = tarolo;
     }
 
+    /**
+     * Az aktuális tárolót rajzolja ki.
+     */
     public void kirajzol() {
         for (int i = 0; i < tarolo.length; ++i) {
             tarolo[i].kirajzol();
@@ -27,6 +38,12 @@ public class Tarolo {
         System.out.println();
     }
 
+    /**
+     * @param golyo jelenti azt ,hogy melyik golyót szeretnénk kiemelni
+     * @param cel jelenti azt ,hogy hova szeretnénk visszrakni
+     * @return egy true vagy false értéket ami azt dönti el ,hogy berakhatja e
+     * a kiszemelt helyre a golyót
+     */
     public boolean probalBerakni(int golyo, int cel) {
         if (cel >= count - 1) {
             Logger.info("Túl nagy számot adtál meg.");
@@ -46,10 +63,18 @@ public class Tarolo {
         }
     }
 
+    /**
+     * @return az tároló aktuáls indexét üresre állítja
+     */
     public boolean ures(int index) {
         return tarolo[index].ures();
     }
 
+    /**
+     * A függvény megvizsgálja ,hogy az aktuális állás megfelel e azoknak
+     * a feltételeknek ami a játék megnyerését biztosítja, ha megfelel akkor
+     * true értéket ad vissza egyébként pedig false értéket
+     */
     public boolean nyert() {
         for (int i = 0; i < tarolo.length; ++i) {
             if (!tarolo[i].ures()) {

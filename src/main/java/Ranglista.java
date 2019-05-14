@@ -1,3 +1,5 @@
+import org.pmw.tinylog.Logger;
+
 import java.beans.XMLDecoder;
 import java.beans.XMLEncoder;
 import java.io.*;
@@ -9,6 +11,12 @@ public class Ranglista {
 
     public Ranglista() {}
 
+    /**
+     * @param nev a felhasználó neve
+     * @param lepes a játékban megtett lépésszám
+     * Ha a rangsor mérete nagyobb lesz mint 10 akkor az utolsót eltávolítja
+     *
+     */
     public void beszurHaTud(String nev, int lepes) {
         Rekord rekord = new Rekord();
         rekord.setNev(nev);
@@ -21,6 +29,9 @@ public class Ranglista {
 
     }
 
+    /**
+     * @return Stringé alakított ret érték
+     */
     @Override
     public String toString() {
         String ret = "";
@@ -35,7 +46,9 @@ public class Ranglista {
     }
 
 
-
+    /**
+     * @param file a fájl nevét várja paraméterül amibe ki fog írni
+     */
     public void kiir(String file) {
         XMLEncoder encoder=null;
         try {
@@ -43,18 +56,22 @@ public class Ranglista {
             encoder.writeObject(rangsor);
             encoder.close();
         } catch(FileNotFoundException fileNotFound){
-            System.out.println("ERROR: While Creating or Opening the File " + file);
+            Logger.error("ERROR: While Creating or Opening the File " + file);
         }
 
     }
 
+
+    /**
+     * @param file a fájl nevét kéri paraméterül amiből beolvassa a ranglistát
+     */
     public void beolvas(String file) {
         XMLDecoder decoder = null;
         try {
             decoder = new XMLDecoder(new BufferedInputStream(new FileInputStream(file)));
             rangsor = (ArrayList<Rekord>)decoder.readObject();;
         } catch (FileNotFoundException e) {
-            System.out.println("ERROR: File " + file + " not found");
+            Logger.error("ERROR: File " + file + " not found");
         }
     }
 

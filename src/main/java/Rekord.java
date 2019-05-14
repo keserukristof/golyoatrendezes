@@ -1,5 +1,9 @@
 import java.io.Serializable;
 
+/**
+ * Az osztály az XML fájlba történő kiíráshoz és beolvasáshoz szügséget gettereket
+ * és settereket tartalmazza
+ */
 public class Rekord implements Serializable {
     private String nev;
     private int lepes;

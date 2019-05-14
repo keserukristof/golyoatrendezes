@@ -5,6 +5,7 @@ public class Mezo {
         this.labda = labda;
     }
 
+
     public Mezo(char c) {
         this.labda = new Labda(c);
     }
@@ -29,12 +30,20 @@ public class Mezo {
             labda = l;
     }
 
+    /**
+     * @return függvényen belül definiált tmp segédváltozóval tér vissza
+     */
     public Labda torolLabda() {
         Labda tmp = labda;
         labda = null;
         return tmp;
     }
 
+
+    /**
+     * Ha a mezőn van labda akkor kirajzolja azt,
+     * egyébként '.' karaktert rak a helyére
+     */
     public void kirajzol() {
         if (labda != null)
             labda.kirajzol();

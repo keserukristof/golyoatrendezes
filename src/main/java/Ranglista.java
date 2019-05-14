@@ -5,8 +5,6 @@ import java.util.ArrayList;
 
 public class Ranglista {
 
-
-
     private ArrayList<Rekord> rangsor = new ArrayList<>();
 
     public Ranglista() {}

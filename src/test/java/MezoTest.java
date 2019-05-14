@@ -30,18 +30,13 @@ public class MezoTest {
         assertEquals(fekete.getLabdaSzin(), 'f');
     }
 
-    public void testTorol() {
-        assertEquals(ures.torolLabda().getSzin(), '.');
-        assertEquals(piros.torolLabda().getSzin(), 'p');
-        assertEquals(fekete.torolLabda().getSzin(), 'f');
-    }
-
+    @Test
     public void testSetter() {
-        ures.setLabda(new Labda('p'));
-        piros.setLabda(new Labda('f'));
-        fekete.setLabda(null);
-        assertEquals(ures.getLabdaSzin(), 'p');
-        assertEquals(piros.getLabdaSzin(), 'f');
-        assertEquals(fekete.getLabdaSzin(), '.');
+        ures.setLabda(new Labda('.'));
+        piros.setLabda(new Labda('p'));
+        fekete.setLabda(new Labda('f'));
+        assertEquals(ures.getLabdaSzin(), '.');
+        assertEquals(piros.getLabdaSzin(), 'p');
+        assertEquals(fekete.getLabdaSzin(), 'f');
     }
 }

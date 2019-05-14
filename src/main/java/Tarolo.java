@@ -1,9 +1,6 @@
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.pmw.tinylog.Logger;
 
 public class Tarolo {
-
-    public static Logger logger = LoggerFactory.getLogger(Tarolo.class);
 
     private static int count = 16;
 
@@ -32,11 +29,11 @@ public class Tarolo {
 
     public boolean probalBerakni(int golyo, int cel) {
         if (cel >= count - 1) {
-            logger.error("Túl nagy számot adtál meg.");//System.out.println("Túl nagy számot adtál meg.");
+            Logger.info("Túl nagy számot adtál meg.");
             return false;
         }
         if (tarolo[golyo].ures() || tarolo[golyo + 1].ures()) {
-            logger.error("Nincs golyó a megadott mezőn");
+            Logger.info("Nincs golyó a megadott mezőn");
             return false;
         }
         if (tarolo[cel].ures() && tarolo[cel].ures()) {
@@ -44,7 +41,7 @@ public class Tarolo {
             tarolo[cel + 1].setLabda(tarolo[golyo + 1].torolLabda());
             return true;
         } else {
-            logger.error("A célmezők nem üresek");
+            Logger.info("A célmezők nem üresek");
             return false;
         }
     }

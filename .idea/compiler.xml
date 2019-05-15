@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="golyoatrendezes" />
+        <module name="golyo-atrendezes" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="golyoatrendezes" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>

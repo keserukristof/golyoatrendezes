@@ -1,3 +1,4 @@
+import org.apache.commons.logging.Log;
 import org.pmw.tinylog.Logger;
 
 public class Tarolo {
@@ -38,6 +39,22 @@ public class Tarolo {
         System.out.println();
     }
 
+    public boolean probalKiemelni(int egyik, int masik){
+        try {
+            if (Math.abs(egyik - masik) != 1) {
+                Logger.error("Egymás melletti mezőket adj meg!");
+                return false;
+            } else if (tarolo[egyik].ures() || tarolo[masik].ures()){
+                Logger.error("Üres mezőket nem tudsz kiemelni!");
+                return false;
+            };
+        } catch (ArrayIndexOutOfBoundsException e) {
+            Logger.error("Túl nagy számot adtál meg!");
+            return false;
+        }
+        return true;
+    }
+
     /**
      * @param golyo jelenti azt ,hogy melyik golyót szeretnénk kiemelni
      * @param cel jelenti azt ,hogy hova szeretnénk visszrakni
@@ -49,11 +66,7 @@ public class Tarolo {
             Logger.info("Túl nagy számot adtál meg.");
             return false;
         }
-        if (tarolo[golyo].ures() || tarolo[golyo + 1].ures()) {
-            Logger.info("Nincs golyó a megadott mezőn");
-            return false;
-        }
-        if (tarolo[cel].ures() && tarolo[cel].ures()) {
+        if (tarolo[cel].ures() && tarolo[cel + 1].ures()) {
             tarolo[cel].setLabda(tarolo[golyo].torolLabda());
             tarolo[cel + 1].setLabda(tarolo[golyo + 1].torolLabda());
             return true;
@@ -64,7 +77,7 @@ public class Tarolo {
     }
 
     /**
-     * @return az tároló aktuáls indexét üresre állítja
+     * Megvizsgálja ,hogy a tároló aktuális indexe üres-e.
      */
     public boolean ures(int index) {
         return tarolo[index].ures();

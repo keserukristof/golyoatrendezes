@@ -4,7 +4,14 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class TaroloTest {
 
-
+    @Test
+    public void testKiemel() {
+        Tarolo tarolo = new Tarolo();
+        assertTrue(tarolo.probalKiemelni(1,2));
+        assertTrue(tarolo.probalKiemelni(3,4));
+        assertFalse(tarolo.probalKiemelni(9,10));
+        assertFalse(tarolo.probalKiemelni(13,15));
+    }
 
     @Test
     public void testBerak() {
@@ -12,9 +19,6 @@ public class TaroloTest {
         assertTrue(tarolo.probalBerakni(1, 7));
         assertFalse(tarolo.probalBerakni(3, 5));
         assertFalse(tarolo.probalBerakni(2, 17));
-        assertFalse(tarolo.probalBerakni(9, 11));
-        assertTrue(tarolo.ures(1));
-        assertFalse(tarolo.ures(3));
     }
 
     @Test

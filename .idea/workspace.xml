@@ -3,18 +3,23 @@
   <component name="ChangeListManager">
     <list default="true" id="ddf7f563-6784-444b-b2ab-9f99d8c08efa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/groverconfig2819958757052723820/instrumentation.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tarolo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tarolo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TaroloTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TaroloTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/groverconfig801827299581065232/instrumentation.ser" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/clover/clover.db" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/clover.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/clover/clover.db19n2k8_jvpeycgc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/clover/clover.db1pnjkz4m90hv_0_19n2k8_jvpeycfr.s" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/clover/clover.db1pnjkz4m90hv_0_cvmxcl_jvpeycfr.s" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/clover/clover.db1pnjkz4m90i9_1_19n2k8_jvpeycgz.s" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/clover/clover.db1pnjkz4m90i9_1_cvmxcl_jvpeycgz.s" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/clover/clover.db1pnjl13nd2hm_2_19n2k8_jvpeycnt.s" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/clover/clover.db1pnjl13nd2hm_2_cvmxcl_jvpeycnt.s" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/clover/clover.db1pnjl13nd2hu_3_19n2k8_jvpeycrq.s" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/clover/clover.db1pnjl13nd2hu_3_cvmxcl_jvpeycrq.s" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/clover/clover.dbcvmxcl_jvpeycfc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.db19n2k8_jvpftz4w" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.db19n2k8_jvpftz4w.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.db1nx4vcqus2bn_1_19n2k8_jvpftzft.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.db1nx4vcqus2bn_1_cvmxcl_jvpftzft.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.db1nx4vcqus2c1_0_19n2k8_jvpftz48.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.db1nx4vcqus2c1_0_cvmxcl_jvpftz48.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.db1nx4vepvw4be_2_19n2k8_jvpftzfw.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.db1nx4vepvw4be_2_cvmxcl_jvpftzfw.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.db1nx4vepvw4bm_3_19n2k8_jvpftzk2.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.db1nx4vepvw4bm_3_cvmxcl_jvpftzk2.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.dbcvmxcl_jvpftz44" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.dbcvmxcl_jvpftz44.1" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/clover/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/jacoco.exec" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/clover/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/clover/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
@@ -33,6 +38,47 @@
       <change beforePath="$PROJECT_DIR$/target/clover/surefire-reports/TaroloTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/surefire-reports/TaroloTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/default/Controller.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/default/Controller.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/default/Labda.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/default/Labda.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/default/Main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/default/Main.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/default/Mezo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/default/Mezo.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/default/Ranglista.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/default/Ranglista.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/default/Rekord.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/default/Rekord.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/default/RekordKomparator.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/default/RekordKomparator.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/default/Tarolo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/default/Tarolo.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/default/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/default/index.source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchfc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchnc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchpc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/bundle.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/class.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/down.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/greenbar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/group.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/method.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/package.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/redbar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/session.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/source.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/up.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/RanglistaTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/RanglistaTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TaroloTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TaroloTest.txt" afterDir="false" />
     </list>
@@ -50,18 +96,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Mezo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#82#83#0" expanded="true" />
-                <element signature="e#116#117#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="565">
@@ -80,31 +114,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Ranglista.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Tarolo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+            <state relative-caret-position="675">
+              <caret line="47" column="62" selection-start-line="47" selection-start-column="62" selection-end-line="47" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2347#2348#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/RekordKomparator.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Labda.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Rekord.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+            <state relative-caret-position="315">
+              <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -121,8 +147,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+            <state relative-caret-position="270">
+              <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/RanglistaTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TaroloTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -168,19 +218,19 @@
         <option value="$PROJECT_DIR$/src/test/java/ControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/LabdaTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/RanglistaTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TaroloTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/MezoTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/tinylog.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/Controller.java" />
         <option value="$PROJECT_DIR$/src/main/java/Labda.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/Ranglista.java" />
         <option value="$PROJECT_DIR$/src/main/java/Rekord.java" />
         <option value="$PROJECT_DIR$/src/main/java/RekordKomparator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Tarolo.java" />
         <option value="$PROJECT_DIR$/checkstyle.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Mezo.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Controller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Tarolo.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TaroloTest.java" />
       </list>
     </option>
   </component>
@@ -223,8 +273,8 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="width" value="959" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="949" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -234,6 +284,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -276,7 +327,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -303,7 +353,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.All in golyo-atrendezes">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="golyo-atrendezes" />
@@ -311,8 +361,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in golyoatrendezes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="golyoatrendezes" />
+    <configuration name="All in golyo-atrendezes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="golyo-atrendezes" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
@@ -339,11 +389,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MezoTest.testUres" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="golyoatrendezes" />
+    <configuration name="TaroloTest.testKiemel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="golyo-atrendezes" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MezoTest" />
-      <option name="METHOD_NAME" value="testUres" />
+      <option name="MAIN_CLASS_NAME" value="TaroloTest" />
+      <option name="METHOD_NAME" value="testKiemel" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -351,11 +401,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in golyo-atrendezes" />
+        <item itemvalue="JUnit.TaroloTest.testKiemel" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.MezoTest.testSetter" />
         <item itemvalue="JUnit.MezoTest.testGetter" />
-        <item itemvalue="JUnit.MezoTest.testUres" />
-        <item itemvalue="JUnit.All in golyoatrendezes" />
       </list>
     </recent_temporary>
   </component>
@@ -395,22 +445,11 @@
       <workItem from="1557937067586" duration="464000" />
       <workItem from="1557937585391" duration="176000" />
       <workItem from="1557937786289" duration="6000" />
+      <workItem from="1557939198671" duration="4041000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MezoTest_testSetter - 2019.05.14 at 14h 11m 31s.xml">
-      <configuration name="MezoTest.testSetter" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MezoTest_testSetter - 2019.05.14 at 14h 12m 35s.xml">
-      <configuration name="MezoTest.testSetter" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MezoTest_testTorol - 2019.05.14 at 14h 12m 50s.xml">
-      <configuration name="MezoTest.testTorol" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MezoTest_testTorol - 2019.05.14 at 14h 13m 19s.xml">
-      <configuration name="MezoTest.testTorol" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_golyoatrendezes - 2019.05.14 at 14h 13m 27s.xml">
       <configuration name="All in golyoatrendezes" configurationId="JUnit" />
     </history-entry>
@@ -429,14 +468,26 @@
     <history-entry file="MezoTest_testSetter - 2019.05.14 at 23h 56m 11s.xml">
       <configuration name="MezoTest.testSetter" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TaroloTest_testKiemel - 2019.05.15 at 19h 58m 31s.xml">
+      <configuration name="TaroloTest.testKiemel" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TaroloTest_testKiemel - 2019.05.15 at 19h 59m 01s.xml">
+      <configuration name="TaroloTest.testKiemel" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_golyo-atrendezes - 2019.05.15 at 19h 59m 13s.xml">
+      <configuration name="All in golyo-atrendezes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_golyo-atrendezes - 2019.05.15 at 19h 59m 40s.xml">
+      <configuration name="All in golyo-atrendezes" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56531000" />
+    <option name="totallyTimeSpent" value="60572000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="959" height="1040" extended-state="4" />
+    <frame x="0" y="-1" width="1920" height="1040" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3713034" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18303095" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -445,7 +496,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29257643" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3155022" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3995633" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -461,7 +512,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info active="true" anchor="right" id="Maven" order="5" visible="true" weight="0.29572836" />
+      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.15528281" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
@@ -493,52 +544,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RanglistaTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TaroloTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/tinylog.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="6" selection-start-column="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Labda.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
-          <folding>
-            <element signature="e#106#107#0" expanded="true" />
-            <element signature="e#138#139#0" expanded="true" />
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Tarolo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
-          <caret line="75" column="59" selection-start-line="75" selection-start-column="59" selection-end-line="75" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -560,13 +569,6 @@
             <element signature="e#82#83#0" expanded="true" />
             <element signature="e#116#117#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -601,26 +603,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/golyoatrendezes.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Labda.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="107" column="30" selection-start-line="107" selection-start-column="30" selection-end-line="107" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        <state relative-caret-position="270">
+          <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/golyoatrendezes.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Tarolo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="107" column="30" selection-start-line="107" selection-start-column="30" selection-end-line="107" selection-end-column="30" />
+        <state relative-caret-position="675">
+          <caret line="47" column="62" selection-start-line="47" selection-start-column="62" selection-end-line="47" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2347#2348#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RanglistaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TaroloTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

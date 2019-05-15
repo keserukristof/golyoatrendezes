@@ -31,18 +31,13 @@ public class Controller {
             tarolo.kirajzol();
             boolean error = true;
             while (error) {
-                System.out.println("Melyik gólyót szeretnéd kiemelni?");
+                System.out.println("Melyik gyolyókat akarod kiemelni?");
                 egyik = scanner.nextInt();
                 masik = scanner.nextInt();
-                try {
-                    if (Math.abs(egyik - masik) != 1) {
-                        Logger.error("Szomszédos indexeket adj meg!");
-                    } else {
-                        error = false;
-                    }
-                } catch (ArrayIndexOutOfBoundsException e) {
-                    Logger.error("Túl nagy számot adtál meg!");
+                if (tarolo.probalKiemelni(egyik,masik) == true){
+                    error = false;
                 }
+
             }
             int cel;
             do {

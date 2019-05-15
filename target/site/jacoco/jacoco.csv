@@ -1,0 +1,9 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Golyo Atrendezes,default,RekordKomparator,0,9,0,0,0,2,0,2,0,2
+Golyo Atrendezes,default,Labda,5,9,0,0,2,4,1,2,1,2
+Golyo Atrendezes,default,Rekord,0,17,0,0,0,8,0,5,0,5
+Golyo Atrendezes,default,Mezo,14,52,3,5,5,17,4,8,2,6
+Golyo Atrendezes,default,Ranglista,13,104,0,4,6,26,1,7,1,5
+Golyo Atrendezes,default,Controller,133,0,10,0,42,0,7,0,2,0
+Golyo Atrendezes,default,Main,10,0,0,0,4,0,2,0,2,0
+Golyo Atrendezes,default,Tarolo,21,202,6,22,5,36,6,15,1,6

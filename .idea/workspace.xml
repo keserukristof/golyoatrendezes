@@ -1,7 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ddf7f563-6784-444b-b2ab-9f99d8c08efa" name="Default Changelist" comment="" />
+    <list default="true" id="ddf7f563-6784-444b-b2ab-9f99d8c08efa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/groverconfig2819958757052723820/instrumentation.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.db" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/clover.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.db19n2k8_jvpeycgc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.db1pnjkz4m90hv_0_19n2k8_jvpeycfr.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.db1pnjkz4m90hv_0_cvmxcl_jvpeycfr.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.db1pnjkz4m90i9_1_19n2k8_jvpeycgz.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.db1pnjkz4m90i9_1_cvmxcl_jvpeycgz.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.db1pnjl13nd2hm_2_19n2k8_jvpeycnt.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.db1pnjl13nd2hm_2_cvmxcl_jvpeycnt.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.db1pnjl13nd2hu_3_19n2k8_jvpeycrq.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.db1pnjl13nd2hu_3_cvmxcl_jvpeycrq.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.dbcvmxcl_jvpeycfc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/src-test/RanglistaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/src-test/RanglistaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/src-test/TaroloTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/src-test/TaroloTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/src/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/src/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/src/Labda.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/src/Labda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/src/Mezo.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/src/Mezo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/src/Ranglista.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/src/Ranglista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/src/Rekord.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/src/Rekord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/src/RekordKomparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/src/RekordKomparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/src/Tarolo.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/src/Tarolo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/surefire-reports/RanglistaTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/surefire-reports/RanglistaTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/surefire-reports/TaroloTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/surefire-reports/TaroloTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/RanglistaTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/RanglistaTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TaroloTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TaroloTest.txt" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,8 +64,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="82" column="38" selection-start-line="82" selection-start-column="38" selection-end-line="82" selection-end-column="38" />
+            <state relative-caret-position="565">
+              <caret line="107" column="30" selection-start-line="107" selection-start-column="30" selection-end-line="107" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -177,6 +211,12 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="Golyo Atrendezes" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="jacoco" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Golyo Atrendezes" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
@@ -185,7 +225,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="4">
     <option name="width" value="959" />
-    <option name="height" value="1039" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -193,6 +233,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -235,7 +276,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -352,6 +392,9 @@
       <workItem from="1557932802673" duration="1754000" />
       <workItem from="1557935284411" duration="17000" />
       <workItem from="1557936012751" duration="313000" />
+      <workItem from="1557937067586" duration="464000" />
+      <workItem from="1557937585391" duration="176000" />
+      <workItem from="1557937786289" duration="6000" />
     </task>
     <servers />
   </component>
@@ -388,12 +431,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55885000" />
+    <option name="totallyTimeSpent" value="56531000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="959" height="1039" extended-state="4" />
+    <frame x="0" y="0" width="959" height="1040" extended-state="4" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3461117" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3713034" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -418,7 +461,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" weight="0.29572836" />
+      <window_info active="true" anchor="right" id="Maven" order="5" visible="true" weight="0.29572836" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
@@ -576,8 +619,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="82" column="38" selection-start-line="82" selection-start-column="38" selection-end-line="82" selection-end-column="38" />
+        <state relative-caret-position="565">
+          <caret line="107" column="30" selection-start-line="107" selection-start-column="30" selection-end-line="107" selection-end-column="30" />
         </state>
       </provider>
     </entry>

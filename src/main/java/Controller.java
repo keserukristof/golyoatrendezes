@@ -1,5 +1,6 @@
 import org.pmw.tinylog.Logger;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 /**
@@ -31,19 +32,31 @@ public class Controller {
             tarolo.kirajzol();
             boolean error = true;
             while (error) {
-                System.out.println("Melyik gyolyókat akarod kiemelni?");
-                egyik = scanner.nextInt();
-                masik = scanner.nextInt();
+                try {
+                    System.out.println("Melyik gyolyókat akarod kiemelni?");
+                    egyik = scanner.nextInt() - 1;
+                    masik = scanner.nextInt() - 1;
+                } catch (InputMismatchException ex) {
+                    Logger.error("Nem megfelelo input(egész szám kell)");
+                    scanner.next();
+                    continue;
+                }
                 if (tarolo.probalKiemelni(egyik,masik) == true){
                     error = false;
                 }
 
             }
-            int cel;
+            int cel = 0;
             do {
-                System.out.println("Hova szeretnéd visszarakni ezeket? (a bal indexet add meg!)");
-                cel = scanner.nextInt();
-            } while (!tarolo.probalBerakni(egyik < masik ? egyik - 1 : masik - 1, cel - 1));
+                try {
+                    System.out.println("Hova szeretnéd visszarakni ezeket? (a bal indexet add meg!)");
+                    cel = scanner.nextInt() - 1;
+                } catch (InputMismatchException ex) {
+                    Logger.error("Nem megfelelo input(egész szám kell)");
+                    scanner.next();
+                    continue;
+                }
+            } while (!tarolo.probalBerakni(egyik < masik ? egyik : masik, cel));
             ++lepes;
             if (tarolo.nyert()) {
                 System.out.println("Nyertél");

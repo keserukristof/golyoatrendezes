@@ -1,9 +1,0 @@
-GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-Golyó Átrendezés,default,RekordKomparator,0,9,0,0,0,2,0,2,0,2
-Golyó Átrendezés,default,Labda,5,9,0,0,2,4,1,2,1,2
-Golyó Átrendezés,default,Rekord,0,17,0,0,0,8,0,5,0,5
-Golyó Átrendezés,default,Mezo,14,52,3,5,5,17,4,8,2,6
-Golyó Átrendezés,default,Ranglista,13,104,0,4,6,26,1,7,1,5
-Golyó Átrendezés,default,Controller,145,0,10,0,49,0,7,0,2,0
-Golyó Átrendezés,default,Main,10,0,0,0,4,0,2,0,2,0
-Golyó Átrendezés,default,Tarolo,32,209,6,24,9,40,7,16,2,6

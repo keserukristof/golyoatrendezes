@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"<Unnamed>","l":"Controller"},{"p":"<Unnamed>","l":"Labda"},{"p":"<Unnamed>","l":"Main"},{"p":"<Unnamed>","l":"Mezo"},{"p":"<Unnamed>","l":"Ranglista"},{"p":"<Unnamed>","l":"Rekord"},{"p":"<Unnamed>","l":"RekordKomparator"},{"p":"<Unnamed>","l":"Tarolo"}]

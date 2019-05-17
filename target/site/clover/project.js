@@ -1,2 +1,0 @@
-processClover (  {"children":[""],"name":"Clover database Fri May 17 2019 16:44:44 CEST","stats":{"AvgMethodComplexity":1.90625,"Complexity":61,"ErroneousTests":0,"FailingTests":0,"FilteredElements":0,"PassingTests":0,"PcErroneousTests":-1,"PcFailingTests":-1,"PcPassingTests":-1,"TestExecutionTime":0,"Tests":0,"TotalChildren":1,"TotalPercentageCovered":59.241707,"TotalStatements":135,"UncoveredElements":86},"title":"Golyó Átrendezés 1.0"}
- ); 

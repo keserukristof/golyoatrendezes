@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="11.0.2" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="Rekord">
+    <void property="lepes">
+     <int>7</int>
+    </void>
+    <void property="nev">
+     <string>Kristof</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Rekord">
+    <void property="lepes">
+     <int>9</int>
+    </void>
+    <void property="nev">
+     <string>matt</string>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

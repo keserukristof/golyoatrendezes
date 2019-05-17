@@ -40,9 +40,9 @@ public class Tarolo {
 
     /**
      *
-     * @param egyik
-     * @param masik
-     * @return
+     * @param egyik az első kiemelni kívánt mezőt kéri be
+     * @param masik a második kiemelni kivánt mezőt kéri be
+     * @return false ha nem megfelelő golyót akar kiemelni a fehasználó
      */
     public boolean probalKiemelni(int egyik, int masik){
         try {

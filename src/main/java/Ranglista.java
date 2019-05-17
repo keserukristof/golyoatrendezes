@@ -14,7 +14,7 @@ public class Ranglista {
     /**
      * @param nev a felhasználó neve
      * @param lepes a játékban megtett lépésszám
-     * Ha a rangsor mérete nagyobb lesz mint 10 akkor az utolsót eltávolítja
+     * Ha a rangsor mérete nagyobb lesz mint 10 akkor az utolsót eltávolítja és rendezi a sorrendet.
      *
      */
     public void beszurHaTud(String nev, int lepes) {
@@ -30,7 +30,8 @@ public class Ranglista {
     }
 
     /**
-     * @return Stringé alakított ret érték
+     * @return Stringé alakított ret értéket
+     * Kiírja a rangsort soronként
      */
     @Override
     public String toString() {
@@ -41,13 +42,17 @@ public class Ranglista {
         return ret;
     }
 
+    /**
+     * Meghívja a toString függvényt
+     */
     public void listaz() {
         System.out.println(toString());
     }
 
 
     /**
-     * @param file a fájl nevét várja paraméterül amibe ki fog írni
+     * @param file a fájl nevét várja paraméterül amibe ki fog írni.
+     *  A rangsort kiírja a fájlba.
      */
     public void kiir(String file) {
         XMLEncoder encoder=null;
@@ -63,7 +68,8 @@ public class Ranglista {
 
 
     /**
-     * @param file a fájl nevét kéri paraméterül amiből beolvassa a ranglistát
+     * @param file a fájl nevét kéri paraméterül amiből beolvassa a ranglistát.
+     * Beolvassa a fájlból a listát.
      */
     public void beolvas(String file) {
         XMLDecoder decoder = null;

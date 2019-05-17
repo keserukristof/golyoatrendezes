@@ -1,4 +1,3 @@
-import org.apache.commons.logging.Log;
 import org.pmw.tinylog.Logger;
 
 public class Tarolo {
@@ -39,6 +38,12 @@ public class Tarolo {
         System.out.println();
     }
 
+    /**
+     *
+     * @param egyik
+     * @param masik
+     * @return
+     */
     public boolean probalKiemelni(int egyik, int masik){
         try {
             if (Math.abs(egyik - masik) != 1) {

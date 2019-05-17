@@ -1,58 +1,63 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="hu"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Tarolo.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Golyo Atrendezes</a> &gt; <a href="index.source.html" class="el_package">default</a> &gt; <span class="el_source">Tarolo.java</span></div><h1>Tarolo.java</h1><pre class="source lang-java linenums">import org.apache.commons.logging.Log;
-import org.pmw.tinylog.Logger;
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Tarolo.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Golyó Átrendezés</a> &gt; <a href="index.source.html" class="el_package">default</a> &gt; <span class="el_source">Tarolo.java</span></div><h1>Tarolo.java</h1><pre class="source lang-java linenums">import org.pmw.tinylog.Logger;
 
 public class Tarolo {
 
     /**
      * A tároló mérete
      */
-<span class="fc" id="L9">    private static int count = 16;</span>
+<span class="fc" id="L8">    private static int count = 16;</span>
 
 
     /**
      * A tömb amiben vagy 'p','f' vagy null érték lehet
      */
-<span class="fc" id="L15">    private Mezo[] tarolo = new Mezo[count];</span>
+<span class="fc" id="L14">    private Mezo[] tarolo = new Mezo[count];</span>
 
-<span class="fc" id="L17">    public Tarolo() {</span>
-<span class="fc bfc" id="L18" title="All 2 branches covered.">        for (int i = 0; i &lt; 3; ++i) {</span>
-<span class="fc" id="L19">            tarolo[2 * i] = new Mezo(new Labda('p'));</span>
-<span class="fc" id="L20">            tarolo[2 * i + 1] = new Mezo(new Labda('f'));</span>
+<span class="fc" id="L16">    public Tarolo() {</span>
+<span class="fc bfc" id="L17" title="All 2 branches covered.">        for (int i = 0; i &lt; 3; ++i) {</span>
+<span class="fc" id="L18">            tarolo[2 * i] = new Mezo(new Labda('p'));</span>
+<span class="fc" id="L19">            tarolo[2 * i + 1] = new Mezo(new Labda('f'));</span>
         }
-<span class="fc bfc" id="L22" title="All 2 branches covered.">        for (int i = 6; i &lt; 16; ++i) {</span>
-<span class="fc" id="L23">            tarolo[i] = new Mezo(null);</span>
+<span class="fc bfc" id="L21" title="All 2 branches covered.">        for (int i = 6; i &lt; 16; ++i) {</span>
+<span class="fc" id="L22">            tarolo[i] = new Mezo(null);</span>
         }
-<span class="fc" id="L25">    }</span>
+<span class="fc" id="L24">    }</span>
 
 
-<span class="fc" id="L28">    public Tarolo(Mezo[] tarolo) {</span>
-<span class="fc" id="L29">        this.tarolo = tarolo;</span>
-<span class="fc" id="L30">    }</span>
+<span class="fc" id="L27">    public Tarolo(Mezo[] tarolo) {</span>
+<span class="fc" id="L28">        this.tarolo = tarolo;</span>
+<span class="fc" id="L29">    }</span>
 
     /**
      * Az aktuális tárolót rajzolja ki.
      */
     public void kirajzol() {
-<span class="nc bnc" id="L36" title="All 2 branches missed.">        for (int i = 0; i &lt; tarolo.length; ++i) {</span>
-<span class="nc" id="L37">            tarolo[i].kirajzol();</span>
+<span class="nc bnc" id="L35" title="All 2 branches missed.">        for (int i = 0; i &lt; tarolo.length; ++i) {</span>
+<span class="nc" id="L36">            tarolo[i].kirajzol();</span>
         }
-<span class="nc" id="L39">        System.out.println();</span>
-<span class="nc" id="L40">    }</span>
+<span class="nc" id="L38">        System.out.println();</span>
+<span class="nc" id="L39">    }</span>
 
+    /**
+     *
+     * @param egyik
+     * @param masik
+     * @return
+     */
     public boolean probalKiemelni(int egyik, int masik){
         try {
-<span class="fc bfc" id="L44" title="All 2 branches covered.">            if (Math.abs(egyik - masik) != 1) {</span>
-<span class="fc" id="L45">                Logger.error(&quot;Egymás melletti mezőket adj meg!&quot;);</span>
-<span class="fc" id="L46">                return false;</span>
-<span class="pc bpc" id="L47" title="1 of 4 branches missed.">            } else if (tarolo[egyik].ures() || tarolo[masik].ures()){</span>
-<span class="fc" id="L48">                Logger.error(&quot;Üres mezőket nem tudsz kiemelni!&quot;);</span>
-<span class="fc" id="L49">                return false;</span>
+<span class="fc bfc" id="L49" title="All 2 branches covered.">            if (Math.abs(egyik - masik) != 1) {</span>
+<span class="fc" id="L50">                Logger.error(&quot;Egymás melletti mezőket adj meg!&quot;);</span>
+<span class="fc" id="L51">                return false;</span>
+<span class="pc bpc" id="L52" title="1 of 4 branches missed.">            } else if (tarolo[egyik].ures() || tarolo[masik].ures()){</span>
+<span class="fc" id="L53">                Logger.error(&quot;Üres mezőket nem tudsz kiemelni!&quot;);</span>
+<span class="fc" id="L54">                return false;</span>
             };
-<span class="nc" id="L51">        } catch (ArrayIndexOutOfBoundsException e) {</span>
-<span class="nc" id="L52">            Logger.error(&quot;Túl nagy számot adtál meg!&quot;);</span>
-<span class="nc" id="L53">            return false;</span>
-<span class="fc" id="L54">        }</span>
-<span class="fc" id="L55">        return true;</span>
+<span class="nc" id="L56">        } catch (ArrayIndexOutOfBoundsException e) {</span>
+<span class="nc" id="L57">            Logger.error(&quot;Túl nagy számot adtál meg!&quot;);</span>
+<span class="nc" id="L58">            return false;</span>
+<span class="fc" id="L59">        }</span>
+<span class="fc" id="L60">        return true;</span>
     }
 
     /**
@@ -62,17 +67,17 @@ public class Tarolo {
      * a kiszemelt helyre a golyót
      */
     public boolean probalBerakni(int golyo, int cel) {
-<span class="fc bfc" id="L65" title="All 2 branches covered.">        if (cel &gt;= count - 1) {</span>
-<span class="fc" id="L66">            Logger.info(&quot;Túl nagy számot adtál meg.&quot;);</span>
-<span class="fc" id="L67">            return false;</span>
+<span class="fc bfc" id="L70" title="All 2 branches covered.">        if (cel &gt;= count - 1) {</span>
+<span class="fc" id="L71">            Logger.info(&quot;Túl nagy számot adtál meg.&quot;);</span>
+<span class="fc" id="L72">            return false;</span>
         }
-<span class="pc bpc" id="L69" title="1 of 4 branches missed.">        if (tarolo[cel].ures() &amp;&amp; tarolo[cel + 1].ures()) {</span>
-<span class="fc" id="L70">            tarolo[cel].setLabda(tarolo[golyo].torolLabda());</span>
-<span class="fc" id="L71">            tarolo[cel + 1].setLabda(tarolo[golyo + 1].torolLabda());</span>
-<span class="fc" id="L72">            return true;</span>
+<span class="pc bpc" id="L74" title="1 of 4 branches missed.">        if (tarolo[cel].ures() &amp;&amp; tarolo[cel + 1].ures()) {</span>
+<span class="fc" id="L75">            tarolo[cel].setLabda(tarolo[golyo].torolLabda());</span>
+<span class="fc" id="L76">            tarolo[cel + 1].setLabda(tarolo[golyo + 1].torolLabda());</span>
+<span class="fc" id="L77">            return true;</span>
         } else {
-<span class="fc" id="L74">            Logger.info(&quot;A célmezők nem üresek&quot;);</span>
-<span class="fc" id="L75">            return false;</span>
+<span class="fc" id="L79">            Logger.info(&quot;A célmezők nem üresek&quot;);</span>
+<span class="fc" id="L80">            return false;</span>
         }
     }
 
@@ -80,7 +85,7 @@ public class Tarolo {
      * Megvizsgálja ,hogy a tároló aktuális indexe üres-e.
      */
     public boolean ures(int index) {
-<span class="nc" id="L83">        return tarolo[index].ures();</span>
+<span class="nc" id="L88">        return tarolo[index].ures();</span>
     }
 
     /**
@@ -89,25 +94,25 @@ public class Tarolo {
      * true értéket ad vissza egyébként pedig false értéket
      */
     public boolean nyert() {
-<span class="pc bpc" id="L92" title="1 of 2 branches missed.">        for (int i = 0; i &lt; tarolo.length; ++i) {</span>
-<span class="pc bpc" id="L93" title="1 of 2 branches missed.">            if (!tarolo[i].ures()) {</span>
-<span class="fc" id="L94">                char piros = 'p';</span>
-<span class="fc" id="L95">                char fekete = 'f';</span>
-<span class="fc bfc" id="L96" title="All 2 branches covered.">                for (int j = i; j &lt; i + 3; ++j) {</span>
-<span class="fc bfc" id="L97" title="All 2 branches covered.">                    if (tarolo[j].getLabdaSzin() != piros) {</span>
-<span class="fc" id="L98">                        return false;</span>
-                    }
-                }
-<span class="fc bfc" id="L101" title="All 2 branches covered.">                for (int k = i + 3; k &lt; i + 6; ++k) {</span>
-<span class="fc bfc" id="L102" title="All 2 branches covered.">                    if (tarolo[k].getLabdaSzin() != fekete) {</span>
+<span class="pc bpc" id="L97" title="1 of 2 branches missed.">        for (int i = 0; i &lt; tarolo.length; ++i) {</span>
+<span class="pc bpc" id="L98" title="1 of 2 branches missed.">            if (!tarolo[i].ures()) {</span>
+<span class="fc" id="L99">                char piros = 'p';</span>
+<span class="fc" id="L100">                char fekete = 'f';</span>
+<span class="fc bfc" id="L101" title="All 2 branches covered.">                for (int j = i; j &lt; i + 3; ++j) {</span>
+<span class="fc bfc" id="L102" title="All 2 branches covered.">                    if (tarolo[j].getLabdaSzin() != piros) {</span>
 <span class="fc" id="L103">                        return false;</span>
                     }
                 }
-<span class="fc" id="L106">                return true;</span>
+<span class="fc bfc" id="L106" title="All 2 branches covered.">                for (int k = i + 3; k &lt; i + 6; ++k) {</span>
+<span class="fc bfc" id="L107" title="All 2 branches covered.">                    if (tarolo[k].getLabdaSzin() != fekete) {</span>
+<span class="fc" id="L108">                        return false;</span>
+                    }
+                }
+<span class="fc" id="L111">                return true;</span>
             }
 
         }
-<span class="nc" id="L110">        return false;</span>
+<span class="nc" id="L115">        return false;</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.2.201808211720</span></div></body></html>

@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="golyo-atrend" />
         <module name="golyo-atrendezes" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="golyoatrendezes" target="11" />
+      <module name="rolling-cubes" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

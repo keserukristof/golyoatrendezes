@@ -1,4 +1,5 @@
 public class Mezo {
+
     private Labda labda = null;
 
     public Mezo(Labda labda) {
